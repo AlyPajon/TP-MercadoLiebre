@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/3f21023fe6.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/css/styles.css">    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/e1309903af.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylesheets/style.css">  
     <title>Mercado Liebre</title>
 
 </head>
@@ -14,42 +15,46 @@
 <body>
 <header>
 
-    <section class="header-nav-1">
+    <nav class="header-nav-bar">
 
         <img src="/images/index_jpg/logo-mercado-liebre.svg" alt="logo">        
 
-        <div>
+        <nav class="header-search-bar">
 
             <input type="text" placeholder="Buscar productos, marcas">
             <button><i class="fas fa-search"></i></button>
+        
+            <p>Comprá en cuotas y sin tarjeta de crédito</p>
 
+        </nav>
+
+        <nav class="header-login-bar">
+
+            <ul>
+
+                <li><a href="">Ofertas</a></li>
+                <li><a href="">Tiendas oficiales</a></li>
+                <li><a href="">Vender</a></li>
+                <li><a href="">Ayuda</a></li>
+
+            </ul>
+
+            <ul>
+
+                <li><a href="">Creá tu cuenta <i class="fas fa-id-card"></i></a></li>
+                <li><a href="">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
+
+            </ul>
+
+        </nav>
+
+        <div class="burger-menu">
+
+            <i class="fas fa-bars"></i>
+            
         </div>
 
-        <p>
-            Comprá en cuotas y sin tarjeta de crédito
-        </p>
-
-    </section>
-
-    <nav class="header-nav-2">
-
-        <ul>
-
-            <li><a href="">Ofertas</a></li>
-            <li><a href="">Tiendas oficiales</a></li>
-            <li><a href="">Vender</a></li>
-            <li><a href="">Ayuda</a></li>
-
-        </ul>
-
-        <ul>
-
-            <li><a href="">Creá tu cuenta <i class="fas fa-id-card"></i></a></li>
-            <li><a href="">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
-            <li><a href="">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
-
-        </ul>
-            
     </nav>
 
 </header>
@@ -64,23 +69,19 @@
 
     <section class="index-productos">
         
-            <h2>Basado en tu última visita:</h2>
+            <h2 class="index-titles">Basado en tu última visita:</h2>
 
-        <article>
-            
-            <ul>
+        <article class="index-articulos">
             
                 
-                <h3>Cafetera Moulinex</h3>
+                <h2>Cafetera Moulinex</h2>
                 <img src="/images/productos_jpg/img-cafetera-moulinex.jpg" alt="cafetera-moulinex">
-                <li>$6.770</li>
-                <li>40% OFF</li>
-                
-            </ul>
+                <li class="index-precios">$6.770</li>
+                <li class="index-descuentos">40% OFF</li>
         
         </article>
 
-        <article>
+        <article class="index-articulos">
 
             <ul>
 
@@ -93,7 +94,7 @@
 
         </article>
 
-        <article>
+        <article class="index-articulos">
 
             <ul>
 
@@ -106,7 +107,7 @@
 
         </article>
 
-        <article>
+        <article class="index-articulos">
 
             <ul>
 
@@ -121,15 +122,15 @@
 
     </section>
 
-    <section class="productos">
+    <section class="index-productos">
         
             <h2>Basado en tu última visita:</h2>
 
-        <article>
+        <article class="index-articulos">
             
             <ul>
 
-                <h3>Cafetera Moulinex</h3>
+                <h2>Cafetera Moulinex</h2>
                 <img src="/images/productos_jpg/img-cafetera-moulinex.jpg" alt="cafetera-moulinex">
                 <li>$6.770</li>
                 <li>40% OFF</li>
@@ -138,7 +139,7 @@
             
         </article>
     
-        <article>
+        <article class="index-articulos">
     
             <ul>
     
@@ -151,7 +152,7 @@
     
         </article>
     
-        <article>
+        <article >
     
             <ul>
     
@@ -164,7 +165,7 @@
     
         </article>
     
-        <article>
+        <article class="index-articulos">
     
             <ul>
     
@@ -181,11 +182,13 @@
 
 <footer>
 
-    <section>
+    <section class="footer-section-1">
 
         <ul>
 
             <li>
+
+                <i class="fa-regular fa-credit-card"></i>
 
                 <h2>Pagá con tarjeta o efectivo</h2>
 
@@ -199,6 +202,8 @@
                  
             <li>
 
+                <i class="fa-solid fa-gift"></i>
+
                 <h2>Envío gratis desde $2500</h2>
 
                 <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
@@ -210,11 +215,13 @@
 
     </section>
 
-    <section>
+    <section class="footer-section-2">
 
         <ul>
 
             <li>
+
+                <i class="fa-solid fa-user-shield"></i>
 
                 <h2>Seguridad, de principio a fin</h2>
 
