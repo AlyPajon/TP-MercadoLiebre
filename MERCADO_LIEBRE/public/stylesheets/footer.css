@@ -1,0 +1,10 @@
+footer {
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+}
+
+footer i {
+    padding: 2em;
+    margin-bottom: 10px;
+}
