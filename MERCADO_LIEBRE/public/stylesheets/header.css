@@ -1,4 +1,6 @@
-
+.index-body {
+    width: 100vw;
+}
 
 .header-nav-bar{
     color: #03264c;
@@ -7,11 +9,3 @@
     font-family: Roboto, sans-serif;
     font-size: 12px;
 }
-
-/* .header-search-bar {
-}
-
-font-size: 12px;
-
-.header-login-bar {
-} */
